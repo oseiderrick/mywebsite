@@ -1,3 +1,33 @@
+@media (max-width: 600px) {
+  p{
+    font-size: 25px;
+  }
+  .edu{
+    background-color: white;
+  }
+  #edu-text{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #skill-text{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .skill{
+    margin-top: 10px;
+  }
+
+}
+
+
+#skill-text{
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
 .bcg{
   background-color: red;
   height: 600px;
@@ -36,24 +66,20 @@
 .pp-img{
   width: 50%;
 }
-.edu{
 
-}
 #edu-pp{
   height: 350px;
   width: 100%;
 }
 #edu-text{
-  padding-top: 20px;
   margin-top: 50px;
   font-size: 30px;
-  width: 100%;
 }
 
 .closing-bar{
   background-color: grey;
   margin-top: 30px;
-  height: 380px;
+  height: 250px;
 }
 .contact{
   text-align: center;
@@ -68,4 +94,13 @@
 
 #instagram{
   background-color: purple;
+}
+
+@media (max-width: 900px ) {
+  #main{
+    width: 100%;
+  }
+  .text{
+    font-size: 100px;
+  }
 }
