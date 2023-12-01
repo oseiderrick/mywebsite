@@ -1,0 +1,188 @@
+.body{
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+.navbar{
+  background-color: white;
+}
+.navbar a{
+  color: black;
+  padding-right: 20px;
+}
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+}
+#about{
+  color: white;
+}
+#logo{
+  color: black;
+}
+.intro p{
+  padding-left: 50px;
+  font-size: 20px;
+}
+.hobbies{
+  padding-bottom: 50px;
+}
+
+#skill-text{
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.bcg{
+  background-color: red;
+  width: 100%;
+  display: inline-block;
+}
+.bcg-pic{
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+#main{
+  width: 90%;
+  margin: auto;
+}
+.text{
+  color: white;
+  font-size: 130px;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  position: absolute;
+  bottom: 470px;
+  text-align: center;
+  padding-left: 30%;
+}
+.text2{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 450px;
+  text-align: center;
+  padding-left: 40%;
+}
+.pp{
+  width: 50%;
+  margin:auto;
+}
+.pp-img{
+  width: 50%;
+  border-radius: 60%;
+  height: 300px;
+}
+
+#edu-pp, #skills-pp, #hobbie-pp{
+  height: 350px;
+  width: 100%;
+  border-radius: 50%;
+  padding: 2px 50px;
+}
+#edu-text{
+  margin-top: 50px;
+  font-size: 25px;
+}
+#skills-pp-hidden{
+  height: 350px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.closing-bar{
+  background-color: black;
+  height: 250px;
+}
+.closing-bar h2, h3{
+  color: white;
+}
+.contact{
+  text-align: center;
+}
+
+.handles{
+  width: 25%;
+  padding-top: 12px;
+  margin: auto;
+  margin-top: 28px;
+}
+.small{
+  display: none;
+}
+
+@media (max-width: 900px ) {
+  .body p{
+    font-size: 20px;
+    padding: 10px;
+  }
+  p{
+    font-size: 25px;
+  }
+  #main{
+    width: 100%;
+  }
+  .text{
+    color: white;
+    font-size: 100px;
+    bottom: 470px;
+    text-align: center;
+    padding-left: 15%;
+  }
+  .text2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 450px;
+    text-align: center;
+    padding-left: 30%;
+  }
+  .edu{
+    background-color: white;
+  }
+  #edu-text{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: left;
+  }
+  #skill-text{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  #skills-pp, #edu-pp,#hobbie-pp{
+    display:grid;
+    padding: 2px 80px;
+    height: 350px;
+    width: 100%;
+    border-radius: 50%;
+    margin: auto
+  }
+  .skill{
+    margin-top: 10px;
+  }
+  .bcg-pic{
+    position: relative;
+    width: 100%;
+    height: 800px;
+  }
+  .pp-img{
+    width: 80%;
+    height: 200px;
+  }
+  .intro p{
+    text-align: left;
+    padding: 5px;
+  }
+  .small{
+    display: flex;
+  }
+  .large{
+    display: none;
+  }
+}
